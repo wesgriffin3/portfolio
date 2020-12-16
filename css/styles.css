@@ -335,6 +335,20 @@ a:hover {
 
 /* MOBILE */
 @media screen and (max-width: 768px) {
+
+  .body {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/spacebg.png");
+    background-size: cover;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
   .nav-links {
     position: absolute;
     right: -50px;
