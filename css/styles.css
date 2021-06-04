@@ -134,7 +134,7 @@ hr {
 
 .me {
   width: 250px;
-  border-radius: 90%;
+  border-radius: 70%;
   margin: 0 auto 10px auto;
   box-shadow: 1px 0.5px 20px #bc6ff1;
 }
@@ -153,7 +153,6 @@ h2 {
   font-family: "Goldman", cursive;
   font-size: 2.5rem;
   color: #892cdc;
-  padding-bottom: 10px;
   text-shadow: 1px 1px #000000;
 }
 
@@ -335,7 +334,6 @@ a:hover {
 
 /* MOBILE */
 @media screen and (max-width: 768px) {
-
   .body {
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -403,3 +401,31 @@ a:hover {
 }
 
 /* END MOBILE  */
+
+/* Animation */
+.animation {
+  animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 472px;
+  }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(0, 255, 0, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
