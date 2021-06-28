@@ -155,7 +155,7 @@ img:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../images/spacebg.png");
     font-family: "Poppins", sans-serif;
-    background-repeat: none;
+    background-repeat: repeat-y;
     background-attachment: fixed;
     overflow-x: hidden;
   }
