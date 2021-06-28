@@ -14,10 +14,22 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Merriweather:wght@300&family=Montserrat:wght@200&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@200&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c03c032a21.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -27,140 +39,58 @@
 
   <body id="body" class="body">
     <!-- NAVBAR -->
-    <nav id="navbar">
-      <div class="logo">Wes</div>
-      <ul class="nav-links">
-        <li>
-          <a href="#top-hr">Home</a>
-        </li>
-        <li><a href="#about-hr">About</a></li>
-        <li>
-          <a href="#work-hr">Work</a>
-        </li>
-      </ul>
-      <div id="burger" class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+    <!-- As a link -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><i class="fas fa-user-astronaut"></i
+        ></a>
       </div>
     </nav>
     <!-- END NAVBAR -->
 
     <!-- Picture and Name -->
-    <hr id="top-hr" />
 
     <section id="picandname">
       <h1>Wes Griffin</h1>
-      <h2 class="animation animated-text animated-cursor">a <i>front end<i> developer.</h2>
+      <h2 class="animation animated-text animated-cursor">
+        a front end web developer.
+      </h2>
     </section>
     <!-- END Picture and Name -->
 
-    <!-- ABOUT SECTION -->
-    <section class="about-section">
-      <hr id="about-hr" />
-      <div class="skills">
-        <h2>Skills & Interests</h2>
+    <hr />
 
-        <div class="card" style="width: 18rem">
-          <h3>HTML, CSS, JavaScript, Bootstrap, & jQuery</h3>
-          <img
-            class="card-img-top dog"
-            src="https://media.giphy.com/media/XfhzPjLDRbGXwAcuiP/giphy.gif"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              Mainly what I work with, learning new things each day to grow as a
-              developer.
-            </p>
-          </div>
+    <div class="container projects">
+      <div class="row">
+        <div class="col-sm-6">
+          <a target="_" href="https://marvel-flip-cards.netlify.app"
+            ><img
+              class="d-block w-100"
+              src="images/marvel.png"
+              alt="Second slide"
+          /></a>
         </div>
-        <div class="card" style="width: 18rem">
-          <h3>Health and Fitness</h3>
-          <img
-            class="card-img-top"
-            src="https://media.giphy.com/media/Icj65HKF4QiTt9KErk/giphy.gif"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              I was never interested in health before i stepped foot into a gym,
-              after graduating high school I got my personal training
-              certification, then lifting and eating healthy became a part of my
-              daily routine.
-            </p>
-          </div>
+        <div class="col-sm-6">
+          <a target="_" href="https://spacefinder-nasa.netlify.app"
+            ><img
+              class="d-block w-100"
+              src="images/spacefinder.png"
+              alt="Second slide"
+          /></a>
+        </div>
+        <div class="col-sm-6">
+          <a target="_" href="https://royalaesthetics.netlify.app/"
+            ><img class="d-block w-100" src="images/ra.png" alt="First slide"
+          /></a>
         </div>
       </div>
-    </section>
-    <!-- END ABOUT -->
-
-    <!-- WORK SECTION -->
-    <section class="work-section">
-      <hr id="work-hr" />
-      <h2>Projects</h2>
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a target="_" href="https://royalaesthetics.netlify.app/"
-              ><img class="d-block w-100" src="images/ra.png" alt="First slide"
-            /></a>
-          </div>
-          <div class="carousel-item">
-            <a target="_" href="https://marvel-flip-cards.netlify.app"
-              ><img
-                class="d-block w-100"
-                src="images/marvel.png"
-                alt="Second slide"
-            /></a>
-          </div>
-          <div class="carousel-item">
-            <a target="_" href="https://spacefinder-nasa.netlify.app"
-              ><img
-                class="d-block w-100"
-                src="images/spacefinder.png"
-                alt="Second slide"
-            /></a>
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </section>
-    <!-- END WORK -->
+    </div>
+    <!-- end -->
 
     <!-- footer -->
-    <hr />
-    <div class="bottom-container">
+
+    <div class="footer">
       <a
         class="footer-link"
         href="https://www.linkedin.com/in/wes-griffin-b10404173/"

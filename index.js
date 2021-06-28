@@ -24,12 +24,11 @@ const navSlide = () => {
 
 navSlide();
 
-// sticky navbar
+$(".project").onClick(function () {
+  $("span").removeClass("hide");
+});
 
 // when scrolling, execute
-window.onscroll = function () {
-  myFunction();
-};
 
 var navbar = document.getElementById("navbar");
 
