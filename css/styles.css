@@ -59,7 +59,7 @@ h2 {
   text-shadow: 5px 5px #000000;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 3s steps(40, end);
 }
 
 p {
@@ -144,5 +144,35 @@ img:hover {
   }
   50% {
     border-color: orangered;
+  }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+  .body {
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/spacebg.png");
+    font-family: "Poppins", sans-serif;
+    background-repeat: none;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+
+  .projects {
+    margin-left: 15px;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 200px;
+    }
   }
 }
