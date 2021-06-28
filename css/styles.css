@@ -157,7 +157,6 @@ img:hover {
     font-family: "Poppins", sans-serif;
     background-repeat: repeat-y;
     background-attachment: fixed;
-    overflow-x: hidden;
   }
   h2 {
     font-size: 1rem;
