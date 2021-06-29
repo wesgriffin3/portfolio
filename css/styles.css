@@ -9,7 +9,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/spacebg.png");
   font-family: "Poppins", sans-serif;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-attachment: fixed;
   overflow-x: hidden;
 }
@@ -150,14 +150,10 @@ img:hover {
 /* mobile */
 
 @media only screen and (max-width: 600px) {
-  .body {
-    box-sizing: border-box;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../images/spacebg.png");
-    font-family: "Poppins", sans-serif;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
+  .navbar {
+    width: 100%;
   }
+
   h2 {
     font-size: 1rem;
   }
