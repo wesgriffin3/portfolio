@@ -24,10 +24,6 @@ const navSlide = () => {
 
 navSlide();
 
-$(".project").onClick(function () {
-  $("span").removeClass("hide");
-});
-
 // when scrolling, execute
 
 var navbar = document.getElementById("navbar");

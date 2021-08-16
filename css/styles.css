@@ -62,6 +62,10 @@ h2 {
   animation: typing 3s steps(40, end);
 }
 
+span {
+  color: transparent;
+}
+
 p {
   font-weight: normal;
   line-height: 2;
@@ -114,6 +118,10 @@ a:hover {
 
 img:hover {
   border: 1px #c5c5c5 solid;
+}
+
+img:hover + span {
+  color: #f8f9fa;
 }
 
 .projects {
