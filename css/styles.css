@@ -72,6 +72,11 @@ p {
   color: white;
 }
 
+.desc {
+  text-align: center;
+  margin-top: 150px;
+}
+
 .linkedIn {
   color: rgb(202, 202, 202);
 }
