@@ -198,6 +198,9 @@ img:hover + span {
   span {
     font-size: 12px;
   }
+  .footer {
+    width: 100%;
+  }
 }
 
 @keyframes typing {
