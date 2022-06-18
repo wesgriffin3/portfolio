@@ -137,6 +137,8 @@ img:hover + span {
 }
 
 .projects {
+  display: flex;
+  flex-direction: row;
   margin: 200px auto 200px auto;
 }
 
@@ -173,17 +175,36 @@ img:hover + span {
   h2 {
     font-size: 1rem;
   }
+}
 
-  .projects {
-    margin-left: 15px;
+@media only screen and (min-width: 576px) {
+  span {
+    display: none;
   }
+}
 
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 200px;
-    }
+@media only screen and (max-width: 575px) {
+  .projects {
+    margin-left: 8px;
+  }
+  .desc {
+    display: none;
+  }
+  .col-sm-6 {
+    display: inline;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  span {
+    font-size: 12px;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200px;
   }
 }
