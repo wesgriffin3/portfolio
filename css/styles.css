@@ -6,8 +6,8 @@
 
 .body {
   box-sizing: border-box;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/spacebg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.851), rgba(0, 0, 0, 0.5)),
+    url("../images/codebackground.png");
   font-family: "Poppins", sans-serif;
   background-repeat: repeat-y;
   background-attachment: fixed;
@@ -97,10 +97,14 @@ p {
 }
 
 .footer {
-  background-color: #f8f9fa;
+  background-color: #090909;
   padding: 50px 0 20px 0;
   margin: -10px -10px;
   text-align: center;
+}
+
+.footer-link {
+  color: rgb(213, 213, 213);
 }
 
 hr {
@@ -134,7 +138,7 @@ img:hover + span {
 }
 
 .copyright {
-  color: #000000;
+  color: rgb(213, 213, 213);
   font-size: 0.75rem;
   padding: 20px 0;
 }
@@ -163,10 +167,6 @@ img:hover + span {
 /* mobile */
 
 @media only screen and (max-width: 600px) {
-  .navbar {
-    width: 100%;
-  }
-
   h2 {
     font-size: 1rem;
   }
